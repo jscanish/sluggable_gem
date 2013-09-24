@@ -17,7 +17,7 @@ The result will look something like this:
 
 after_validation :sluggify_this
 
-def sluggify_this
-  generate_slug(User, self.username)
+def sluggify_this <br/>
+&nbsp;&nbsp;generate_slug(User, self.username) <br/>
 end
 
